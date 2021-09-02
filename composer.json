@@ -1,0 +1,22 @@
+{
+    "name": "bailangzhan/hyperf-result",
+    "description": "hyperf rpc 或者api 响应结果统一数据格式",
+    "require": {
+        "hyperf/constants": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bailangzhan",
+            "email": "bailangzhan@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Bailangzhan\\Result\\": "src/" }
+    },
+    "extra": {
+        "hyperf": {
+            "config": "Bailangzhan\\Result\\ConfigProvider"
+        }
+    }
+}
