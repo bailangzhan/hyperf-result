@@ -8,7 +8,7 @@ class Result
      * @param $data
      * @return array
      */
-    public static function success($data)
+    public static function success($data = [])
     {
         return static::end(ErrorCode::SUCCESS, ErrorCode::getMessage(ErrorCode::SUCCESS), $data);
     }
